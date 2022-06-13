@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!-- Icon is 0x0600 + [icon, in hex] ... so 26019 is icon 0x0600 + 65A3 or 0x060065A3 -- http://ac.yotesfan.com/06-Textures/?id=060065A3 -->
+<view icon="26019" title="PK Detector" width="320" height="100">
+    <control progid="DecalControls.Notebook" name="nbMain">
+    <page label="PK Detector">
+      <control progid="DecalControls.FixedLayout" clipped="">
+        <control progid="DecalControls.StaticText" name="SampleListText" left="5" top="385" width="160" height="18" text="StaticText" />
+      </control>
+    </page>
+  </control>
+</view>
